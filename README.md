@@ -7,6 +7,8 @@ It even works on external models that you don’t have access to, with ease. Wit
 
 https://docs.fluentvalidation.net/en/latest/built-in-validators.html
 
+https://docs.fluentvalidation.net/en/latest/testing.html
+
 ## Questions to discuss afterwards
 
 * How did it feel to work with such fast, comprehensive model validation?
