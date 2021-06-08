@@ -12,9 +12,5 @@
     <ProjectReference Include="..\FluentValidator.Models\FluentValidator.Models.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Model\" />
-  </ItemGroup>
-
 
 </Project>

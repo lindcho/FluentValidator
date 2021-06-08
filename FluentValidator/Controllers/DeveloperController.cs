@@ -9,9 +9,9 @@ namespace FluentValidator.Controllers
     public class DeveloperController : ControllerBase
     {
         [HttpPost]
-        public async Task<IActionResult> Create(Developer developer)
+        public IActionResult Create(Developer developer)
         {
-            return Ok();
+            return Ok(developer);
         }
     }
 }

@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using FluentValidation.AspNetCore;
+using FluentValidator.Models;
 
 namespace FluentValidator
 {
@@ -22,7 +23,7 @@ namespace FluentValidator
             services.AddControllers()
                 .AddFluentValidation(fv =>
                 {
-                    fv.RegisterValidatorsFromAssemblyContaining<Startup>();
+                    fv.RegisterValidatorsFromAssemblyContaining<Developer>();
                     fv.RunDefaultMvcValidationAfterFluentValidationExecutes = false;
                 });
         }
